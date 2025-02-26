@@ -18,7 +18,7 @@ export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
     >
 
 
-      <div className="text-4xl font-bold tracking-wide">Chatbot UI</div>
+      <div className="text-4xl font-bold tracking-wide">Vcathlab AI</div>
     </Link>
   )
 }
