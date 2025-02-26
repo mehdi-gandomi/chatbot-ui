@@ -16,12 +16,9 @@ export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="mb-2">
-        {/* <ChatbotUISVG theme={theme === "dark" ? "dark" : "light"} scale={0.3} /> */}
-        <img src="/public/vcathlab.png" style={{max-width:"80px"}} alt="" />
-      </div>
 
-      <div className="text-4xl font-bold tracking-wide">Vcathlab AI</div>
+
+      <div className="text-4xl font-bold tracking-wide">Chatbot UI</div>
     </Link>
   )
 }
